@@ -1,0 +1,6 @@
+# git ignore file
+
+/.vs
+/packages
+/FireflyUI/bin
+/FireflyUI/obj
