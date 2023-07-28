@@ -61,5 +61,29 @@
   <ItemGroup>
     <None Include="img\fatcow-master\32x32\3d_glasses.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\16x16\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\32x32\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\32x32\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\16x16\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\16x16\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\32x32\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\32x32\user_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\fatcow-master\16x16\user_add.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
