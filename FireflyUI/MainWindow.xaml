@@ -12,7 +12,35 @@
             <ColumnDefinition Width="11*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
+        <hc:SideMenu 
+            x:Name="MainSideMenu"
+            HorizontalAlignment="Left" Height="429" Margin="10,10,0,0" 
+            VerticalAlignment="Top" Width="120"
+            SelectionChanged="MainSideMenu_SelectionChanged">
+            <hc:Interaction.Triggers>
+                <hc:EventTrigger EventName="SelectionChanged">
+                    <hc:EventToCommand Command="{Binding SwitchItemCmd}" PassEventArgsToCommand="True" />
+                </hc:EventTrigger>
+            </hc:Interaction.Triggers>
+            <hc:SideMenuItem Header="Overview" IsSelected="True">
+                <hc:SideMenuItem.Icon>
+                    <Image Source="pack://application:,,,/img/fatcow/32x32/folder.png" Width="24" Height="24" />
+                </hc:SideMenuItem.Icon>
+
+                <hc:SideMenuItem
+                    x:Name="MySummary"
+                    Command="{Binding SelectCmd}"
+                    CommandParameter="{Binding Header, RelativeSource={RelativeSource Self}}"
+                    Header="Summary"
+                    IsSelected="False">
+                    <hc:SideMenuItem.Icon>
+                        <TextBlock Text="&#xf2cb;"/>
+                    </hc:SideMenuItem.Icon>
+                </hc:SideMenuItem>
+                
+            </hc:SideMenuItem>
+        </hc:SideMenu>
+
 
     </Grid>
 </Window>

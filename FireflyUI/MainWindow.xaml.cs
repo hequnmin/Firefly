@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using HandyControl;
+using HandyControl.Data;
+
 namespace FireflyUI
 {
     /// <summary>
@@ -23,6 +26,11 @@ namespace FireflyUI
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MainSideMenu_SelectionChanged(object sender, FunctionEventArgs<object> e)
+        {
+            MessageBox.Show("Hello!");
         }
     }
 }
