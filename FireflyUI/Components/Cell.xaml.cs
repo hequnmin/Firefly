@@ -13,24 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using HandyControl;
-using HandyControl.Data;
-
-namespace FireflyUI
+namespace FireflyUI.Component
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Cell.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Cell : UserControl
     {
-        public MainWindow()
+        public Cell()
         {
             InitializeComponent();
-        }
-
-        private void MainSideMenu_SelectionChanged(object sender, FunctionEventArgs<object> e)
-        {
-            MessageBox.Show("Hello!");
         }
     }
 }
