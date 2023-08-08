@@ -4,6 +4,8 @@
 /packages
 /FireflyUI/bin
 /FireflyUI/obj
+/FireflyUI/Resources/Images/
+/FireflyUI/img/*.zip
 
 /FireflyResource/bin
 /FireflyResource/obj

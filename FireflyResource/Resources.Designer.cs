@@ -22,7 +22,7 @@ namespace FireflyResource {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace FireflyResource {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FireflyResource.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace FireflyResource {
         ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_3d_glasses_16 {
+        public static System.Drawing.Bitmap fatcow_3d_glasses_16 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_3d_glasses_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_3d_glasses_32 {
+        public static System.Drawing.Bitmap fatcow_3d_glasses_32 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_3d_glasses_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_add_16 {
+        public static System.Drawing.Bitmap fatcow_add_16 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_add_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_add_32 {
+        public static System.Drawing.Bitmap fatcow_add_32 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_add_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_delete_16 {
+        public static System.Drawing.Bitmap fatcow_delete_16 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_delete_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_delete_32 {
+        public static System.Drawing.Bitmap fatcow_delete_32 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_delete_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_user_16 {
+        public static System.Drawing.Bitmap fatcow_user_16 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_user_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_user_32 {
+        public static System.Drawing.Bitmap fatcow_user_32 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_user_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_user_add_16 {
+        public static System.Drawing.Bitmap fatcow_user_add_16 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_user_add_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace FireflyResource {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap fatcow_user_add_32 {
+        public static System.Drawing.Bitmap fatcow_user_add_32 {
             get {
                 object obj = ResourceManager.GetObject("fatcow_user_add_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
