@@ -21,16 +21,25 @@ namespace FireflyUI
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void MainSideMenu_SelectionChanged(object sender, FunctionEventArgs<object> e)
+        #region Change Skin
+        private void ButtonConfig_OnClick(object sender, RoutedEventArgs e) => PopupConfig.IsOpen = true;
+
+        private void ButtonSkins_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello!");
+            if (e.OriginalSource is Button button && button.Tag is SkinType tag)
+            {
+                PopupConfig.IsOpen = false;
+                ((App)Application.Current).UpdateSkin(tag);
+            }
         }
+        #endregion
+
     }
 }
