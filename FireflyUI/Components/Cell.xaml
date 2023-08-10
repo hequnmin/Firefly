@@ -19,8 +19,8 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <StackPanel Grid.Row="0" Orientation="Horizontal">
-                        <TextBlock x:Name="channel" Margin="10" Height="20" Width="20" Text="12" FontWeight="Bold" FontSize="16" Foreground="{DynamicResource SuccessBrush}" />
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" DataContext="{Binding ElementName=current}">
+                        <TextBlock Text="{Binding Channel}" Margin="10" Height="20" Width="20" FontWeight="Bold" FontSize="16" Foreground="{DynamicResource SuccessBrush}" />
                         <Border x:Name="progressBar" Margin="5" Height="15" Width="100" CornerRadius="2" Background="{DynamicResource SuccessBrush}"/>
                         <TextBlock x:Name="result" Margin="5" Height="15" Width="20" Text="OK" FontWeight="Bold" Foreground="{DynamicResource SuccessBrush}" />
                     </StackPanel>

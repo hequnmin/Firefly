@@ -13,27 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FireflyUI.Component
+namespace FireflyUI.Components
 {
     /// <summary>
-    /// Cell.xaml 的交互逻辑
+    /// CellGrid.xaml 的交互逻辑
     /// </summary>
-    public partial class Cell : UserControl
+    public partial class CellGrid : UserControl
     {
-        public static readonly DependencyProperty channelProperty = DependencyProperty.Register("Channel", typeof(string), typeof(Cell), new PropertyMetadata(""));
-
-        public string Channel
-        {
-            get { return (string)GetValue(channelProperty); }
-            set { SetValue(channelProperty, value); }
-        }
-        
-
-        public Cell()
+        public CellGrid()
         {
             InitializeComponent();
         }
-
-        
     }
 }

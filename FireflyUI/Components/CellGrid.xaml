@@ -1,0 +1,30 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FireflyUI.Components"
+             xmlns:Component="clr-namespace:FireflyUI.Component" xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="FireflyUI.Components.CellGrid"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <hc:SimplePanel SnapsToDevicePixels="True">
+        <Border Background="{DynamicResource RegionBrush}" Effect="{StaticResource EffectShadow3}" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="245" />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="215" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Component:Cell Grid.Column="0" Grid.Row="0" />
+                
+
+            </Grid>
+        </Border>
+        
+    </hc:SimplePanel>
+
+</UserControl>
