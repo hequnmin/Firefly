@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -13,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FireflyUI.Component
+namespace FireflyUI.Views
 {
     /// <summary>
-    /// Cell.xaml 的交互逻辑
+    /// Overview.xaml 的交互逻辑
     /// </summary>
-    public partial class Cell : UserControl
+    public partial class Overview : UserControl
     {
-        public Cell()
+        public Overview()
         {
             InitializeComponent();
         }

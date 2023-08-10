@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,14 +10,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FireflyUI
+namespace FireflyUI.Views
 {
     /// <summary>
-    /// Monitor.xaml 的交互逻辑
+    /// Designer.xaml 的交互逻辑
     /// </summary>
-    public partial class Monitor : Window
+    public partial class Designer : UserControl
     {
-        public Monitor()
+        public Designer()
         {
             InitializeComponent();
         }

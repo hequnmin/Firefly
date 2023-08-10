@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireflyUI", "FireflyUI\FireflyUI.csproj", "{216752F1-1B65-4A25-AC32-2C5270768CA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireflyResource", "FireflyResource\FireflyResource.csproj", "{1A34BAE5-CD85-4B1C-90AA-361ADAF6C734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireflyUI", "FireflyUI\FireflyUI.csproj", "{A3DCDA65-79B5-4523-81AC-143E1099EE4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{216752F1-1B65-4A25-AC32-2C5270768CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{216752F1-1B65-4A25-AC32-2C5270768CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{216752F1-1B65-4A25-AC32-2C5270768CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{216752F1-1B65-4A25-AC32-2C5270768CA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A34BAE5-CD85-4B1C-90AA-361ADAF6C734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A34BAE5-CD85-4B1C-90AA-361ADAF6C734}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A34BAE5-CD85-4B1C-90AA-361ADAF6C734}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A34BAE5-CD85-4B1C-90AA-361ADAF6C734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DCDA65-79B5-4523-81AC-143E1099EE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DCDA65-79B5-4523-81AC-143E1099EE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DCDA65-79B5-4523-81AC-143E1099EE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DCDA65-79B5-4523-81AC-143E1099EE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3F54F821-A908-4ADA-9C60-2A01A5C824C1}
+		SolutionGuid = {F8EDC118-2BB7-4168-8FB8-D1033CCAC75B}
 	EndGlobalSection
 EndGlobal
