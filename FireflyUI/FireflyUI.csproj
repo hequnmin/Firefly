@@ -5,6 +5,10 @@
     <UseWPF>true</UseWPF>
     <AssemblyVersion>0.0.0.2</AssemblyVersion>
     <FileVersion>0.0.0.2</FileVersion>
+    <PackageId>Blueway Firefly</PackageId>
+    <Authors>Min, Qin</Authors>
+    <Product>Blueway Firefly</Product>
+    <AssemblyName>Blueway Firefly</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HandyControls" Version="2.5.3.2" />

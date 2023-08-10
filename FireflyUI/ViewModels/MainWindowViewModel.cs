@@ -19,6 +19,8 @@ namespace FireflyUI.ViewModels
 
         public MainWindowViewModel(IRegionManager regionManager)
         {
+            Title = $"{App.Global.G_ApplicationTitle} Ver {App.Global.G_ApplicationVersion}";
+
             region = regionManager;
             SwitchItemCommand = new DelegateCommand<SelectionChangedEventArgs>(OnSwitchItem);
         }

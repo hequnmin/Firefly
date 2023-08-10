@@ -11,6 +11,8 @@ namespace FireflyUI
 {
     public partial class App
     {
+        public static Global Global = new Global();
+
         protected override Window CreateShell()
         {
             return Container.Resolve<MainWindow>();
