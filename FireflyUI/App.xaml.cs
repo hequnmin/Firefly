@@ -28,6 +28,8 @@ namespace FireflyUI
         {
             containerRegistry.RegisterForNavigation<Dashboard>();
             containerRegistry.RegisterForNavigation<Designer>();
+            containerRegistry.RegisterForNavigation<Cell>();
+            containerRegistry.RegisterForNavigation<CellGrid>();
         }
 
         internal void UpdateSkin(SkinType skin)

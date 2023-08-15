@@ -9,10 +9,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Cell.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CellGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Designer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Monitor.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Overview.xaml.cs">
@@ -20,6 +29,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\Cell.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CellGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Dashboard.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -30,6 +45,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resources\Geometries.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Monitor.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Overview.xaml">

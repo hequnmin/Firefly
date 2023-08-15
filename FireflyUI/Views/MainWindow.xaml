@@ -46,6 +46,8 @@
         <ListBox Style="{StaticResource ListBoxModernStyle}">
             <ListBoxItem Tag="Dashboard" Margin="10,10,10,0" Content="Dashboard"/>
             <ListBoxItem Tag="Designer" Margin="10,0" Content="Designer"/>
+            <ListBoxItem Tag="Cell" Margin="10,0" Content="Cell"/>
+            <ListBoxItem Tag="CellGrid" Margin="10,0" Content="CellGrid"/>
             <hc:Interaction.Triggers>
                 <hc:EventTrigger EventName="SelectionChanged">
                     <hc:EventToCommand Command="{Binding SwitchItemCommand}" PassEventArgsToCommand="True"/>
