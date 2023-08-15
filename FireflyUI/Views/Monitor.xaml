@@ -1,0 +1,13 @@
+﻿<UserControl xmlns:Views="clr-namespace:FireflyUI.Views"  x:Class="FireflyUI.Views.Monitor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:prism="http://prismlibrary.com/"        
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    prism:ViewModelLocator.AutoWireViewModel="True"
+    >
+    <hc:SimplePanel SnapsToDevicePixels="True">
+        <Border Background="{DynamicResource RegionBrush}" Effect="{StaticResource EffectShadow3}" >
+            <Views:CellGrid Width="600" />    
+        </Border>
+    </hc:SimplePanel>
+</UserControl>
