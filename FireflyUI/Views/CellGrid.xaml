@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="FireflyUI.Views.CellGrid"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:prism="http://prismlibrary.com/"        
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:Views="clr-namespace:FireflyUI.Views"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+    <hc:SimplePanel SnapsToDevicePixels="True">
+        <Border Background="{DynamicResource RegionBrush}" Effect="{StaticResource EffectShadow3}" >
+            <Grid x:Name="gridCells">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="245" />
+                    <ColumnDefinition Width="245" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="215" />
+                    <RowDefinition Height="215" />
+                </Grid.RowDefinitions>
+                <!--<StackPanel Grid.Row="0" Grid.Column="0">
+                    <Views:Cell 
+                        Channel = "1"
+                        NodeName = "Test Node Name ..."
+                        TestName = "Test Item Name ..."
+                        Value = "12345.67"
+                        Unit = "mV"
+                        Check = "True"
+                        Between = "True"
+                        Lower = "0"
+                        Upper = "98765.43"
+                    />
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="1">
+                    <Views:Cell 
+                        Channel = "2"
+                        NodeName = "Test Node Name ..."
+                        TestName = "Test Item Name ..."
+                        Value = "34567.89"
+                        Unit = "mV"
+                        Check = "True"
+                        Between = "True"
+                        Lower = "0"
+                        Upper = "98765.43"
+                    />
+                </StackPanel>-->
+
+            </Grid>
+        </Border>
+
+    </hc:SimplePanel>
+</UserControl>
